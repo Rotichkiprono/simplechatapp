@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      </header>
+    <div class="chat-history" id="message-container">
+      </div>
+
+    <form id="send-container" class="message-input-container">
+      <input type="text" id="message-input" placeholder="Type your message here">
+      <button id="send-button">Send</button>
+      <button id="customize-button" title="Customize Chat App"> <icon> </icon></button>
+    </form>
+  </div>
+</body>
+</html>
